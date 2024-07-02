@@ -1,6 +1,6 @@
 getgenv().nightTable = {
     enabled = false,
-    transparencyIncrement = 0.5
+    transparency = 0.5
 }
 
 local function enableXray()
@@ -10,7 +10,7 @@ local function enableXray()
     if config.enabled then
         for _, v in ipairs(workspace:GetDescendants()) do
             if v:IsA("BasePart") and not v:IsA("Terrain") then
-                v.Transparency = math.min(v.Transparency + config.transparencyIncrement, 1)
+                v.Transparency = config.transparency
             end
         end
     else
@@ -23,3 +23,5 @@ local function enableXray()
 end
 
 enableXray()
+
+-- I am stupid for adding that math shit when it wasn't that necessary mb 
