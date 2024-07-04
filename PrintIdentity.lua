@@ -1,4 +1,4 @@
--- I've done added some stuffs to the original script that I found on sb.
+-- I've done added some stuffs to the original script that I found on sb. (This shit might not even work.. maybe)
 -- CREDITS: VXSTY
 
 local r, t = 0, 1
