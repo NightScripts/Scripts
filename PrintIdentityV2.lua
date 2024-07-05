@@ -161,4 +161,5 @@ end
 mn()
 task.spawn(mn)
 
-How high is the protection level 1 out of 100
+-- How high is the protection level 1 out of 100
+-- My bro: 1/100 (Really accurate no cap and shit)
