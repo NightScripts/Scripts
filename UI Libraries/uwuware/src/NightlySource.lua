@@ -88,7 +88,7 @@ local function createOptionHolder(holderTitle, parent, parentTable, subHolder)
 		BorderSizePixel = 0,
 		Text = holderTitle,
 		TextSize = subHolder and 16 or 17,
-		Font = Enum.Font.GothamBold,
+		Font = Enum.Font.Arcade,
 		TextColor3 = Color3.fromRGB(255, 255, 255),
 		Parent = parentTable.main
 	})
@@ -596,7 +596,7 @@ local function createSlider(option, parent)
 		TextColor3 = Color3.fromRGB(235, 235, 235),
 		TextSize = 15,
 		TextWrapped = true,
-		Font = Enum.Font.Gotham,
+		Font = Enum.Font.Arcade,
 		Parent = valueRound
 	})
 	
@@ -1443,7 +1443,7 @@ local function createColor(option, parent, holder)
 		BackgroundTransparency = 1,
 		Text = " " .. option.text,
 		TextSize = 17,
-		Font = Enum.Font.Gotham,
+		Font = Enum.Font.Arcade,
 		TextColor3 = Color3.fromRGB(255, 255, 255),
 		TextXAlignment = Enum.TextXAlignment.Left,
 		Parent = parent.content
