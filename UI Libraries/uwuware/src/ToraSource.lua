@@ -721,8 +721,6 @@ local function createList(option, parent, holder)
 		TextXAlignment = Enum.TextXAlignment.Left,
 		Parent = main
 	})
-
-  print("Nightly - uwuware")
   
 	local listvalue = library:Create("TextLabel", {
 		Position = UDim2.new(0, 12, 0, 20),
