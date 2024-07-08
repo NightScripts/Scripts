@@ -1,6 +1,5 @@
 -- Load the Library 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NightScripts/Script-File/main/UI%20Libraries/uwuware/source.lua",true))()
-
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NightScripts/Script-File/main/UI%20Libraries/uwuware/src/ToraSource.lua", true))()
 -- Create a Window
 local window = library:CreateWindow("Window")
 
@@ -63,5 +62,5 @@ main:AddBind({
         print("i love femboys")
     end
 })
-library:Close() -- Close the Library
+-- library:Close() -- Close the Library
 library:Init() -- Loads the Library
