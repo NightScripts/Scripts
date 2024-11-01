@@ -4,6 +4,9 @@
 --[ Deobfuscated: 9:00 AM | November 1, 2024
 --[ Prot: NaN%
 --[ Original File Name: Inf_Money__OP__.txt | File Size: 210B | Source: scriptblox.com | Uploading Method: File Selection
+
+--// It took the program 7 minutes to crack this shi I wont be deonfuscating for a while.
+
 local tag = "XZPDP"
 print(tag)
 
