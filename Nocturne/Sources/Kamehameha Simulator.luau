@@ -1,5 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NightScripts/Scripts/refs/heads/main/Nocturne/Rayfield%20Window.lua"))()
+local Window = loadstring(game:HttpGet("https://raw.githubusercontent.com/NightScripts/Scripts/refs/heads/main/Nocturne/Rayfield%20Window.lua"))()
 
 function Notify(t, c)
   Rayfield:Notify({
