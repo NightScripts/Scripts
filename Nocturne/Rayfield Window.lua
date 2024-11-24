@@ -1,5 +1,5 @@
 local Window = Rayfield:CreateWindow({
-   Name = "Nocturne | Open Source | ID:1",
+   Name = "Nocturne | Open Source | ID:" .. tostring(game.PlaceId),
    Icon = 0, 
    LoadingTitle = "Kamehameha Simulator",
    LoadingSubtitle = "by NightScripts",
